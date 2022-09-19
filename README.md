@@ -35,3 +35,12 @@ Coding question: please refer to [files](/files).
 Please write down the worst case runtime complexity of the functions that you implement in this README file. 
 For each case, please provide a reason.
 
+In Question 1, the worst case runtime complexity is O(n). For Reverse(), the function needs to scan the input when reading it. For PlusOne(), the worst case is 2*n, and it is O(n), too.
+
+In Question 2, the worst case runtime complexity is O(n^(1/2)). The function needs to try number from 2 to sqrt(n).
+
+In Question 3, the worst case runtime complexity is O(n). The function needs to scan the whole string.
+
+In Question 4, the worst case runtime complexity is O(n^3). The function needs to scan the 3D vector.
+
+In Question 5, the worst case runtime complexity is O(n). The function have 4*n operations.# EE538
